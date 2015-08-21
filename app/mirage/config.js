@@ -1,4 +1,12 @@
 export default function() {
+  this.pretender.get('/api/characters', this.pretender.passthrough);
+  // this.get('/api/characters', function(db) {
+    // return {
+      // data: db.characters.map(attrs => {
+        // return { type: 'characters', id: attrs.id, attributes: attrs };
+      // })
+      // };
+  // });
 
   // These comments are here to help you get started. Feel free to delete them.
 
